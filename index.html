@@ -5,12 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Interactive pricing component</title>
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="style.css" type="text/css" media="all" />
-  <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
 </head>
 
 <body>
@@ -24,19 +19,19 @@
     <div class="card">
       <section class="upper-section">
         <div class="grid">
-          <p class="pageviews"><span class="pageview-count">100K</span> Pageviews</p>
+          <p class="pageviews mr-auto"><span class="pageview-count">100K</span> Pageviews</p>
           <div class="range-wrap">
             <input id="range" type="range" min="0" max="1000000" value="100000" step="10000">
           </div>
-          <p class="price-p"><span class="price">$16</span><span>/ month</span></p>
+          <p class="price-p ml-auto"><span class="price">$16</span><span>/ month</span></p>
         </div>
         <div class="toggle-div">
-          <p class="plan-p">Monthly Billing</p>
+          <p class="plan-p right-align">Monthly Billing</p>
           <div class="switch">
             <input id="plan-type" type="checkbox" class="switch-input" />
             <label for="plan-type" class="switch-label">Switch</label>
           </div>
-          <p class="plan-p">Yearly Billing
+          <p class="plan-p left-align">Yearly Billing
             <span class="badge">-25% </span>
             <span class="badge bigscreen">25% discount</span>
           </p>
@@ -56,10 +51,6 @@
       </section>
     </div>
   </div>
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
   <script src="main.js" type="text/javascript" charset="utf-8"></script>
 </body>
 
